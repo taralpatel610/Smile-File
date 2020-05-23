@@ -1,17 +1,20 @@
 # Smile File
 
-## Functional requirements
+### Phase I - User stories
 
-### Phase I
-
-* User can to log in to the system to see his/her EDR
-* User can see his charts in a `2D - Phase I / 3D rendered image with ability to pan zoom - Phase II`
-    * User can see what are the issues in his mouth
-    * User can see all the procedure that were performed on him/her
+* User signs up to access Smile File portal using invite email sent to his email
+* System authenticates a user and only allow him to see his own records
+* User can see his teeth charts in a `2D image - Phase I / 3D rendered image with ability to pan zoom - Phase II` with each teeth marked with color code based on findings (past), procedures done (present) and treatment plan (future)
 * User can see his x-rays (all or most recent?)
     * By default show the most recent ones
     * User can request the older ones and will be shown after authorized personal from the clinic approves the request - `Feature - Phase II`
 * User can see intra oral pictures if those are taken - `Feature - Phase II`
+
+### Phase II - User stories
+
+* Show teeth chart in a 3d rendered image with ability to pan zoom
+* Allow users to request past x-rays (only available if those are taken)
+* Show intra oral pictures if those are taken
 
 ### Questions need to be answered
 
@@ -35,6 +38,9 @@
 
 2. Should we create a new database design?
     * Recommended backend: **MERN** stack
+
+3. 3d library to render teeth image
+    * https://threejs.org/
 
 *Lingo*
 - **EDR**: Electronic Dental Record
