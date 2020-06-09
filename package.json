@@ -1,0 +1,33 @@
+{
+    "name": "smilefile",
+    "version": "1.0.0",
+    "description": "Smile File - STL Render",
+    "main": "app.js",
+    "keywords": [
+        "Smile File",
+        "Smile",
+        "File",
+        "STL",
+        "Teeth",
+        "Dentistry",
+        "3D"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/taralpatel610/Smile-File.git"
+    },
+    "author": "Taral Patel",
+    "license": "UNLICENSED",
+    "scripts": {
+        "dev": "nodemon --watch src -e html,css,js,json -r ./node_modules/dotenv/config app/config/server.js"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-favicon": "^2.0.1",
+        "three": "^0.117.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
