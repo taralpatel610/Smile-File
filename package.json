@@ -28,6 +28,6 @@
         "three": "^0.125.0"
     },
     "devDependencies": {
-        "nodemon": "^2.0.3"
+        "nodemon": "^2.0.20"
     }
 }
